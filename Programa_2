@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <math.h>
+
+//Tabla de multiplicar 
+
+int main (){
+	
+	int num;
+	
+	printf("Proporciona un numero para hacer una tabla de multiplicar:");
+	
+	scanf("%d", &num);
+	
+	int i=0;
+	
+	int mul =1;
+	
+	while (i<=10-1){
+		
+		printf("%d", num*mul);
+		
+		mul++;
+		i++;
+		
+		printf ("\n");
+	}
+	
+	return 0;
+}
