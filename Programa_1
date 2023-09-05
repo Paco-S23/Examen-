@@ -1,0 +1,19 @@
+#include <stdio.h>
+//Programa que imprime 10 números.
+int main() {
+    int num;
+
+    printf("\x1b[5mSecuencia de Numeros\x1b[0m\n\n");
+    printf("Proporciona un numero al que quieras realizar su secuencia: ");
+    scanf("%d", &num);
+
+    int i = 0;
+
+    while (i <= 10) {
+        printf("%d ", num+1);
+        num++;
+        i++;
+    }
+
+    return 0;
+}
