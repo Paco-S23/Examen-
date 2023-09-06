@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <math.h>
+
+// Progrma que suma los numero anteriores hasta el numero proporcionado 
+int main (){
+	
+	int num;
+	
+	printf("Proporcione un numero para hacer la suma de todos du numero anteriores:");
+	scanf("%d",&num);
+
+	int i=0;
+	int suma=0;
+	
+	if(num<=i){
+		printf("No se puede hacer con valores negativos\n");
+	} else{
+			while(num>0){
+								
+				suma=suma+num;
+		
+				printf("%d",num);
+				
+				num--;
+		
+				printf("\n");
+	
+			}
+	}
+
+
+	printf("La suma de los números anteriores es: %d\n", suma);
+	
+	return 0;
+}
